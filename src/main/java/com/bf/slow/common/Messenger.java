@@ -7,7 +7,7 @@ import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.Map;
 @Data
-public class MessengerVo implements Serializable{
+public class Messenger implements Serializable{
 
     /** 业务参数集合 */
     private Map<String, Object> messenger;
@@ -16,7 +16,7 @@ public class MessengerVo implements Serializable{
     /** 描述信息 */
     private String resDesc = "成功";
 
-    public MessengerVo(){
+    public Messenger(){
         this.messenger = new HashMap<>();
     }
 
